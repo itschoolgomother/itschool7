@@ -1,0 +1,21 @@
+body{
+background-color:lightgreen;	
+}
+p{
+	color:red;
+	font-size:330px;
+}
+.snowman{
+width:200px;
+height:500px;
+background-color: lightyellow;
+
+}
+.legs{
+	width:200px;
+	height:200px;
+	background-color: white;
+	border-radius:50%;
+
+	
+}

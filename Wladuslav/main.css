@@ -1,0 +1,33 @@
+body{
+     background: lightgreen;
+}
+.santa{
+	width: 350px;
+	height: 600px;
+	background-color: green;
+}
+.body{
+	width: 350px;
+	height: 350px;
+	background-color: red;
+	border-radius: 50%;
+	position: absolute;
+	top:250px;
+}
+.head{
+	width:170px; 
+	height:250px;
+    background-color: white;
+    position: absolute;
+    left:95px ;
+    top:70px ;
+    z-index:1 ;
+}
+.beard{
+	width:170px;
+	height:100px;
+	background-color: brown;
+	position: absolute;
+	top: 170px;
+	b iueh
+}
