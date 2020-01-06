@@ -1,9 +1,10 @@
 body{
-background-color:lightgreen;	
+background-image: url("snow.gif");
+background-size:100%;
 }
 p{
 	color:red;
-	font-size:330px;
+	font-size:100px;
 text-align: center;
 animation: 2s fon infinite;
 }
@@ -18,8 +19,7 @@ animation: 2s fon infinite;
 .snowman{
 width:200px;
 height:500px;
-background-color: lightyellow;
-position:relative;
+position:absolute;
 left:50%;
 top: 50%;
 transform: translate(-50%,-50%);
@@ -27,7 +27,7 @@ transform: translate(-50%,-50%);
 .legs{
 	width:200px;
 	height:200px;
-	background-color: green;
+	background-color: lightgrey;
 	border-radius:50%;
  position: absolute;
  top: 300px;
@@ -35,7 +35,7 @@ transform: translate(-50%,-50%);
 .body{
 width: 150px;
 height:150px;
-background-color: green;
+background-color: lightgrey;
 border-radius: 50%;
 position: absolute;
 top:150px;
@@ -44,7 +44,7 @@ left:25px;
 .head{
 width:100px;
 height:100px;
-background-color:green;
+background-color:lightgrey;
 border-radius:50%;
 position:absolute;
 left:50px;
@@ -62,7 +62,7 @@ top:40px;
 .eyer{
 	width:10px;
 	height:10px;
-background-color: tomato;
+background-color: black;
 border-radius: 50%;
 position:absolute;
 left:70px;
@@ -80,7 +80,7 @@ position: absolute;
 .arml{
 	width:100px;
 	height:10px;
-	background-color: brown;
+	background-color: lightgrey;
 position:absolute;
 left:-90px;
 top:55px;
@@ -90,7 +90,7 @@ z-index: -1;
 .armr{
 	width:100px;
 	height:10px;
-	background-color:purple;
+	background-color:lightgrey;
 	position:absolute;
 	left:140px;
 	top:55px;
@@ -100,7 +100,7 @@ z-index: -1;
 .legl{
 	width: 60px;
 height:40px;
-background-color:chocolate;
+background-color:lightgrey;
 border-radius:50%;
 position:absolute;
 top:170px;
@@ -109,9 +109,56 @@ z-index: 2;
 .legr{
 width: 60px;
 height: 40px;
-background-color: chocolate;
+background-color: lightgrey;
 border-radius: 50%;
 position: absolute;
 top:170px;
 left:135px;
+}
+.dot1{
+width:15px;
+height: 15px;
+background-color: black;
+border-radius: 50%;
+position: absolute;
+left:70px;
+top:50px;
+animation:4s pygovika infinite;
+}
+.dot2{
+width:15px;
+height:15px; 
+background-color: black;
+border-radius:50%;
+position:absolute;
+left:70px;
+top:90px;
+animation: 2s pygovika infinite;
+}
+.dot3{
+width: 15px;
+height: 15px;
+border-radius: 50%;
+background-color: black; 
+position:absolute;
+left:90px;
+top:100px;
+animation: 4s pygovika infinite;
+}
+.dot4{
+width:15px;
+height:15px;
+border-radius: 50%;
+background-color:black;
+position: absolute;
+left:30px;
+top:70px;
+animation: 4s pygovika infinite;
+}
+@keyframes pygovika {
+0%{background-color:red;height:100px; }
+25%{background-color:yellow;top:100px;  }
+50%{background-color:green;width:100px; }
+75%{background-color:blue;left:100px; }
+100%{background-color:purple;width:100px;  }
 }
