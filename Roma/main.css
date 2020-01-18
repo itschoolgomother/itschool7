@@ -1,0 +1,14 @@
+body{
+	background-color:blue;
+}
+h2{
+	color: green;
+	text-align: center;
+	font-size: 50px;
+
+}
+h2:hover{
+	color: gray;
+	font-size: 40px;
+	transform: rotate(-5deg);
+}
