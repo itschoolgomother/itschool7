@@ -4,13 +4,47 @@
 	<title></title>
 </head>
 <body>
-<script type="text/javascript"> 
-	var w =Math.random()*100;
-	w=Math.round(w);
-	var h=prompt("УГАДАЙ число");
-	if (w==h){alert("вы угадали")};
-	if (w<h) {alert("слишком маленькое число")};
-	if (w>h) {alert("слишом большое число")};
+	<textarea id="lp"> </textarea>
+	<button onclick="BLACK()">red</button>
+
+	<br>
+
+	<button onclick="Red()">black</button>
+	<button onclick="moneyb()">баланс</button>
+	<script type="text/javascript">
+	
+	var money=900;
+	function loj(){
+		var text = document.getElementById('lp').value;
+		text=text*2;
+		alert(text)
+	}
+	function moneyb(){
+		alert('у вас :'+money+'$')
+
+	}
+	function rando(){
+	var rando=Math.random()
+	rando=Math.round(rando)
+	}
+	function col(){
+		var color=Math.random()
+		color=Math.round(color)
+
+	}
+	
+
+</script>
+<script type="text/javascript">
+var money=   1000;
+var k = document.getElementById('stavka')value;
+function krutit(){}
+m=m-k
+var r =Math.random()
+r = Math.round(r)
+if (r=ch){k=k*2;m=m-k;alert('вы выйграли бваш баланс:'
+	+money)}
+else{alert}
 </script>
 </body>
 </html>
