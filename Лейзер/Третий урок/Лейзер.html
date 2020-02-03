@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+<canvas id="canvas"></canvas>
+<button onclick="acet()">Вызвать</button>
+<script type="text/javascript">
+	var canvas = document.getElementById('canvas')
+	var ctx = canvas.getContext('2d')
+	canvas.width = 1200;
+	canvas.height = 600;
+	var x = 50;
+	var y = 50;
+	var p = 0;
+	for(var i = 0;i<25;i++){
+		acer()
+		function acer(){
+			ctx.beginPath();
+			ctx.rect(x,y,50,50);
+			x+=75;
+			if(x>350){
+				x=50;
+				y+=75;
+			}
+            ctx.fill()
+	}
+	}
+	    function acet(){
+	    	x=50;y=50;p++;
+	    	if(p==2){
+	    	x=50; y=125;
+	    	for(var i = 0;i<5;i++){
+	ctx.beginPath();
+	ctx.rect(x,y,50,50);
+	ctx.fillStyle = "blue"
+	ctx.fill()
+
+	x+=75;
+	    }
+	}
+	if(p==1){
+		x=50; y=50;
+	for(var i = 0;i<5;i++){
+	ctx.beginPath();
+	ctx.rect(x,y,50,50);
+	ctx.fillStyle = "red"
+	ctx.fill()
+
+	x+=75;
+	    }	
+	}
+	if(p==3){
+		x=50; y=200;
+	for(var i = 0;i<5;i++){
+	ctx.beginPath();
+	ctx.rect(x,y,50,50);
+	ctx.fillStyle = "yellow"
+	ctx.fill()
+
+	x+=75;
+	    }	
+	}
+	if(p==4){
+		x=50; y=275;
+	for(var i = 0;i<5;i++){
+	ctx.beginPath();
+	ctx.rect(x,y,50,50);
+	ctx.fillStyle = "green"
+	ctx.fill()
+
+	x+=75;
+	    }	
+	}
+	if(p==5){
+		x=50; y=350;
+	for(var i = 0;i<5;i++){
+	ctx.beginPath();
+	ctx.rect(x,y,50,50);
+	ctx.fillStyle = "pink"
+	ctx.fill()
+
+	x+=75;
+	    }	
+	}
+	}
+</script>
+</body>
+</html>
