@@ -1,0 +1,28 @@
+*{
+margin: 0px;
+padding:0px;
+}
+header{
+	width: 100%;
+	min-height: 150px;
+	background-color: yellow;
+
+
+}
+.con{
+	max-width: 1200px;
+	margin: 0 auto;
+}
+.head{
+	display: flex;
+}
+.head-left{
+	width: 50%;
+	height: 15px;
+	background-color: red;
+}
+.head-right{
+	width: 50%;
+	height: 15px;
+	background-color: silver;
+}
