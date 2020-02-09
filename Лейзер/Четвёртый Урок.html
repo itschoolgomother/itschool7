@@ -1,0 +1,45 @@
+<!DOCTYPE html>`
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+<script type="text/javascript">
+	var k = 1;
+	function menu(){
+		document.getElementById('menu').style.left = '10px';
+	if(k>0){}
+			else{document.getElementById('menu').style.left = '-210px'}
+				k=-k
+	}
+</script>
+<style type="text/css">
+	#menu {
+		width: 200px;
+		height: 2000px;
+		border: 5px solid black;
+		background-color: red;
+		opacity: .5;
+		position: absolute;
+		left: -210px;
+	}
+</style>
+<div id="menu">
+<button style="width: 200px;font-size: 25px;
+		height: 60px;top: 60px;right: 1150px;" onclick="mem() "><b>Mem</button>
+<hr>
+<button style="width: 200px;font-size: 25px;
+		height: 70px;top: 60px;right: 1150px;" onclick="memas() "><b>Memas</button>
+		<hr>
+<button style="width: 200px;font-size: 25px;
+		height: 80px;top: 60px;right: 1150px;" onclick="memosatina() "><b>Memosatina</button>
+<hr>
+<button style="width: 200px;font-size: 25px;
+		height: 90px;top: 60px;right: 1150px;" onclick="memomaniya() "><b>Memomaniya</button>
+<hr>
+<button style="width: 200px;font-size: 25px;
+		height: 100px;top: 60px;right: 1150px;" onclick="memotavriya() "><b>Memotavriya</button>
+</div>
+<button style="position: absolute;top: 0px;right: 0px;" onclick="menu()">Menu</button>
+</body>
+</html>

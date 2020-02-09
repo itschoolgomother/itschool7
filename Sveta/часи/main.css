@@ -1,0 +1,24 @@
+body{
+	background-color: yellow;
+}
+#clock{
+	width: 400px;
+	height: 400px;
+	background-color: white;
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%,-50%);
+    border-radius: 50%;
+}
+#line-m{
+       width: 10px;
+       height: 80px;
+       background-color: black;
+       position: absolute;
+       left: 50%;
+       top: 30%;
+       transform: rotate(0deg);
+       transform-origin: center bottom;
+       border-radius: 50%;
+}

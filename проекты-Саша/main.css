@@ -1,0 +1,11 @@
+body{
+	background-color:rgb(21, 0, 117);
+}
+h1{
+	color:red;
+	text-align: center;
+	front-size:800%}
+h1:hover{
+	color:black;
+	transform:rotate(345deg);
+}
