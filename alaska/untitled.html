@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+
+</head>
+<body style="height: 2000">
+	<style type="text/css">
+		#div{width: 1300px;
+			height: 100px;
+			background-color: gray;
+			position: absolute;
+			top:-200px;	
+			animation: div 2s infinite;
+
+		}
+
+button{
+	 		opacity: 0.1;
+			width: 300px;
+			height: 80px;
+			margin: 10px;
+			margin-left:50px;
+			margin-right: 50px;
+			}
+			@keyframes div{
+				0%{top: -100px;opacity:0;}
+				50%{top: 0px;opacity:1;}
+				100%{top: -100px;opacity:0;}
+				
+			}
+			@keyframes cs{
+				0%{top: -100px;opacity:0;}
+				50%{top: 0px;opacity:1;}
+				100%{top: -100px;opacity:0;}
+				
+
+	</style>
+<body>
+	<div id="div"> <center><button></button>
+		<button></button>
+		</center>
+	</div>
+<script type="text/javascript">
+			var k = 1;
+			document.addEventListener("c",meny);
+			function meny (){
+			if (k>0) {document.getElementById('div').style.top=0+"px"}
+			else{document.getElementById('div').style.top=-200+"px"}
+				k=-k;
+			
+}
+		
+				</script>
+				
+</body>
+</html>
