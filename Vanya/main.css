@@ -1,1 +1,24 @@
-
+p { 
+	color: green;
+	border: 2px solid red;
+	background-color: yellow;
+}
+#inform {
+	border: 30px solid blue;
+	width: 300px;
+	padding: blue;
+	border-color: red;
+	margin: 100px;
+}
+#name {
+	border-radius: 299px;
+	background-color: black;
+}
+#age {
+	border-radius: 299px;
+	background-color: pink;
+}
+#gl {
+	border-radius: 299px;
+	background-color: blue;
+}
