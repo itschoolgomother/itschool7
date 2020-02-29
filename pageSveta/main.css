@@ -1,0 +1,77 @@
+#face {
+	border-radius: 600px;
+	background-color: green;
+	margin: auto;
+	width: 600px;
+	height: 600px;
+	position: relative;
+
+
+}
+#eye1 {
+	position: relative;
+	border-radius: 20px;
+	width: 250px;
+	height: 50px;
+	z-index: 1;
+	background-color: white;
+	margin: auto;
+	bottom: 150px;
+}
+#eye2 {
+	position: relative;
+	border-radius: 10px;
+	width: 50px;
+	height: 50px;
+	margin: auto;
+	bottom: 350px;
+	background-color: white;
+}
+#eye3 {
+	position: relative;
+	border-radius: 600px;
+	width: 90px;
+	height: 90px;
+	margin: auto;
+	bottom: 555px;
+	background-color: white;
+	left: 100px;
+}
+#eye4 {
+	position: relative;
+	border-radius: 600px;
+	width: 90px;
+	height: 90px;
+	margin: auto;
+	bottom: 650px;
+	background-color: white;
+	right: 100px;
+}
+#eye5 {
+	background-color: black;
+	border-radius: 600px;
+	width: 30px;
+	height: 30px;
+	position: relative;
+	top: 25px;
+	left: 30px;
+}
+#eye6 {
+	background-color: black;
+	border-radius: 600px;
+	width: 30px;
+	height: 30px;
+	position: relative;
+	top: 28px;
+	left: 26px;
+}
+#eye7 {
+	background-color: green;
+	position: relative;
+	margin: auto;
+	border-radius: 2px;
+	width: 300px;
+	height: 800px;
+	bottom: 320px;
+
+}

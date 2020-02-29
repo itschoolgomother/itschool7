@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+<script type="text/javascript">
+	window.addEventListener('scroll',s);
+	function s(){
+		var c = -500+pageYOffset*3;
+		if(c>600){c=600}
+		document.getElementById('text').style.left = c+'px'
+	
+	    var x = -500+pageYOffset*5;
+	    if(x>800){x=800}
+	    document.getElementById('lol').style.right = x+'px'
+
+	    var s = -500+pageYOffset;
+	    if(s>600){s=600}
+	    document.getElementById('lil').style.top = s+'px'
+
+	    var v = -500+pageYOffset;
+	    if(v>600){v=600}
+	    document.getElementById('lul').style.top = v+'px'
+
+	    var g = -500+pageYOffset*1.5;
+	    if(g>750){g=750}
+	    document.getElementById('lal').style.bottom = g+'px'
+      }
+</script>
+<style type="text/css">
+	#text {
+		width: 300px;
+		position: fixed;
+		top: 400px;
+		left: -500px;
+	}
+	#lol {
+		width: 300px;
+		position: fixed;
+		top: 400px;
+		right: -500px;
+	}
+	#lil {
+		left: 170px;
+		width: 100px;
+		height: 100px;
+		position: fixed;
+		top: -500px;
+	}
+	#lul {
+		left: 680px;
+		width: 100px;
+		height: 100px;
+		position: fixed;
+		top: -500px;
+	}
+	#lal {
+		left: 400px;
+		width: 100px;
+		height: 100px;
+		position: fixed;
+		bottom: -500px;
+	}
+	body {height: 2000px;}
+</style>
+<div id="text">
+	<center>
+		Razer — компания, занимающаяся разработкой и созданием профессионального игрового оборудования. В её ассортименте мыши, коврики для мыши, клавиатуры, наушники, игровые системы. </center>
+</div>
+<div id="lol">
+	<center>
+		A4TECH (['eɪfɔərtek]) — тайваньская компания, производитель периферийных устройств для персонального компьютера. </center>
+</div>
+<div id="lil">
+	<center>
+		<img style="width: 300px;" src="bl.jpg"> </center>
+</div>
+<div id="lul">
+	<center>
+		<img style="width: 130px;" src="ra.jpg"> </center>
+<div id="lal">
+	<center>
+		<img style="width: 530px;" src="wnda.jpg"> </center>
+</div>
+</body>
+</html>

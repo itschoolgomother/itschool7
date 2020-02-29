@@ -3,52 +3,103 @@
 <head>
 	<title></title>
 </head>
-<body  style="height: 2000px;">
+<body  >
+	<div id="img"><img width="400px" src="/home/itschool7/Документы/alaska/f.jpg"></div>
+	<div id="ff"><img width="400px" src="/home/itschool7/Документы/alaska/ff.gif"></div>
+<div id="text">
+Wish you
+Merry Christmas
+And
+A
+Happy New Year
+</div>
+<div id ="gtexs">
+	Новый год — главный календарный праздник, наступающий в момент перехода с последнего дня года в первый день следующего года. Отмечается многими народами в соответствии с принятым календарём. Начало года с 1 января  
+</div>
+<div id ="htext">
+	New Year is the time
+</div>
+<button id="d"></button>
+<button id="h"></button>
+<button id="j"></button>
+<button id="s"></button>
+<button id="a"></button>
+<button id="k"></button>
 	<script type="text/javascript">
-		window.addEventListener('scroll',img);
+		window.addEventListener('keydown',key);
+		function key(e) {
+			if (e.code=="KeyQ") {document.getElementById('img').style.visibility ="visible"}
+			if (e.code=="KeyW") {document.getElementById('text').style.visibility ="visible"}
+			if (e.code=="KeyE") {document.getElementById('gtexs').style.visibility ="visible"}
+		if (e.code=="KeyR") {document.getElementById('d').style.visibility ="visible"}
+		if (e.code=="KeyY") {document.getElementById('h').style.visibility ="visible"}
+		if (e.code=="KeyU") {document.getElementById('j').style.visibility ="visible"}
+		if (e.code=="KeyI") {document.getElementById('s').style.visibility ="visible"}
+		if (e.code=="KeyO") {document.getElementById('a').style.visibility ="visible"}
+		if (e.code=="KeyP") {document.getElementById('k').style.visibility ="visible"}
+			if (e.code=="KeyA") {document.getElementById('htext').style.visibility ="visible"}
+			if (e.code=="KeyS") {document.getElementById('ff').style.visibility ="visible"}
 
-		function img() {
-			
-			var x1 = -500+pageYOffset*3.3;
-			var x12 = -3500+pageYOffset*9.3;
-			var x13 = -6500+pageYOffset*9.3;
-		
-			if(x1>600){x1=600;}
-			if(x12>600){x12=600;}
-			if(x13>600){x13=600;}
-			document.getElementById('im').style.left= x1+"px";
-			document.getElementById('text2').style.left= x12+"px";
-			document.getElementById('but').style.left= x13+"px";
-			
 
-		}
+			}
+
 	</script>
 	<style type="text/css">
-	#im {position: fixed;top: 100px;left: -500}
-	#teext{width: 500px;position: absolute;top:  500px;}
-	#text2{font-size: 58px;position: fixed;top:400px;left:-500px;}
-	#but{font-size: 58px;position: fixed;top: 500px;left: -500px;}
-	#teext1{width: 400px;position: absolute;top:  100px;}
-	#k{position: absolute;top: 1400px;}
-			
+	#text {position: absolute;
+		top: 100px;
+		left: 45%;
+		width: 50%;
+		height: 60%;
+	}
+	#gtexs{
+		top: 110px;
+		left: 45%;
+		width: 40%;
+	}
+	#htext{
+		top: 140px;
+		left: 45%;
+		width: 40%;}		
+	#d{
+		top: 90px;
+		left: 45%;
+		width: 60%;
+
+	}
+	#h {position: absolute;
+		top: 130px;
+		left: 45%;
+		width: 60%;
+		
+	}
+	#j {position: absolute;
+		top: 90px;
+		left: 40%;
+		width: 60%;}
+	#s {position: absolute;
+		top: 160px;
+		left: 50%;
+		width: 60%;}
+	#a {position: absolute;
+		top: 200px;
+		left: 60%;
+		width: 60%;}
+	#k {position: absolute;
+		top: 250px;
+		left: 70%;
+		width: 60%;}
+
+
+	body{visibility: hidden;}
+	
 			
 </style>
-<div id="im"><center>
-	<img width="300px;" src="images.jpeg">
-	<img width="200px;" src="h.png">
-	<img width="300px;" src="images.jpeg">
-</center>
-</div>
-<div id="teext">Основная статья: География Фарерских островов
-Столицей и главным портом островов является город Торсхавн (население — примерно 20 885 жителей в 2017 году), расположенный на юго-восточном побережье острова Стреймой. Второй по величине населённый пункт Фарерских островов — Клаксвуйк (4773 человека).
 
-</div>
-<div id="but">
-Клаксвуйк (4773 человека)
-	
-</div>
-<div id="but"></div>
-</body>
+</center>
+
+
+
+
 
 
 </body>

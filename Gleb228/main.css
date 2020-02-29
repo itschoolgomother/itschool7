@@ -1,4 +1,4 @@
-body{
+	body{
 	background-color: #8A1212;
 
 }
@@ -19,4 +19,43 @@ h5{
 }
 h6{
 	color: #FF0000;
+
 }
+.skraaa{
+	width: 250px;
+	height: 250px;
+	background-color: black;
+	border-radius: 50%;
+	position: absolute;
+	left: 50%;
+	top:50%;
+	transform: translate(-50%,-50%);
+}   
+.eyel{
+	width: 20px;
+	height: 20px;
+	background-color: red;
+	border-radius: 50%;
+	position: absolute;
+	left: 49px;
+	top: 80px;
+
+}
+.eyer{
+	width: 20px;
+	height: 20px;
+	background-color: red;
+	border-radius: 50%;
+	position: absolute;
+	left: 180px;
+	top: 80px;
+}	
+.smile{
+	width: 90px;
+	height: 25px;
+	background-color: plum;
+	border-radius: 0 0 50% 50% / 0 0 100% 100%;
+	position: absolute;
+	left: 80px;
+	top: 150px; 
+    }
