@@ -1,0 +1,350 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"a",
+				"auto\tmargin"
+			],
+			[
+				"l",
+				"left\tproperty"
+			],
+			[
+				"p",
+				"position\tproperty"
+			],
+			[
+				"font",
+				"font-weight\tproperty"
+			],
+			[
+				"c",
+				"class\tAttr"
+			],
+			[
+				"i",
+				"inline-block\tdisplay"
+			],
+			[
+				"b",
+				"border-color\tproperty"
+			],
+			[
+				"li",
+				"list-style-type\tproperty"
+			],
+			[
+				"t",
+				"text-decoration\tproperty"
+			],
+			[
+				"bod",
+				"border\tproperty"
+			],
+			[
+				"m",
+				"margin\tproperty"
+			],
+			[
+				"bac",
+				"background-color\tproperty"
+			],
+			[
+				"bo",
+				"border-radius\tproperty"
+			],
+			[
+				"te",
+				"text-decoration\tproperty"
+			],
+			[
+				"bor",
+				"border-radius\tproperty"
+			],
+			[
+				"tex",
+				"text-decoration\tproperty"
+			],
+			[
+				"co",
+				"color\tproperty"
+			],
+			[
+				"ba",
+				"background-color\tproperty"
+			],
+			[
+				"h",
+				"html"
+			],
+			[
+				"fu",
+				"function"
+			],
+			[
+				"onc",
+				"onclick\tAttr"
+			],
+			[
+				"fo",
+				"font-size\tproperty"
+			],
+			[
+				"in",
+				"z-index\tproperty"
+			],
+			[
+				"w",
+				"width\tproperty"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 288.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/home/itschool7/Документы/Богдана/site/main.css",
+		"/home/itschool7/Документы/Лейзер/-я.html",
+		"/home/itschool7/Документы/Руслан-Анчаревич/main.css",
+		"/home/itschool7/Документы/Руслан-Анчаревич/index.html",
+		"/home/itschool7/Документы/Gleb228/supercell.html",
+		"/home/itschool7/Документы/Gleb228/main.css",
+		"/home/itschool7/Документы/Gleb228/index.html",
+		"/home/itschool7/Документы/Vanya/index.html",
+		"/home/itschool7/Документы/main.css",
+		"/home/itschool7/Документы/index.html",
+		"/home/itschool7/Документы/Лейзер/Шестой урок.html",
+		"/home/itschool7/Документы/Лейзер/Шестой урок",
+		"/home/itschool7/Документы/Лейзер/Пятый Урок.html",
+		"/home/itschool7/Документы/Vanya/main.css",
+		"/home/itschool7/Документы/Богдана/3Dcanvas/main.js",
+		"/home/itschool7/Документы/Богдана/3Dcanvas/index.html",
+		"/home/itschool7/Документы/США/mypage/main.css",
+		"/home/itschool7/Документы/США/mypage/index.html",
+		"/home/itschool7/Документы/США/mypage/main.js",
+		"/home/itschool7/Документы/США/main.js",
+		"/home/itschool7/Документы/США/index.html",
+		"/home/itschool7/Документы/Sveta/часи/main.css",
+		"/home/itschool7/Документы/Sveta/часи/app.js",
+		"/home/itschool7/Документы/Sveta/часи/index.html",
+		"/home/itschool7/Документы/Sveta/часи/app/js",
+		"/home/itschool7/Документы/Sveta/часи/main/css",
+		"/home/itschool7/Документы/Sveta/часи/index/html",
+		"/home/itschool7/Документы/Лейзер/Первый Урок/Лейзер_3640.html",
+		"/home/itschool7/Документы/Лейзер/Четвёртый Урок.html",
+		"/home/itschool7/Документы/Лейзер/Третий урок/Лейзер_3710.html",
+		"/home/itschool7/Документы/Лейзер/Пятый Урок",
+		"/home/itschool7/Документы/Руслан-Анчаревич/index.html.main.css",
+		"/home/itschool7/Документы/alaska/untitled.html",
+		"/home/itschool7/Документы/Vanya/Vanya",
+		"/home/itschool7/Документы/Богдана/canves/main.js",
+		"/home/itschool7/Документы/Богдана/canves/index.html",
+		"/home/itschool7/Документы/Богдана/canves/index.",
+		"/home/itschool7/Документы/Богдана/canves/html",
+		"/home/itschool7/Документы/Лейзер/Четвёртый Урок",
+		"/home/itschool7/Документы/проекты-Саша/index.html",
+		"/home/itschool7/Документы/проекты-Саша/main.css",
+		"/home/itschool7/Документы/США/mysite/main.css",
+		"/home/itschool7/Документы/США/mysite/index.html",
+		"/home/itschool7/Документы/Vanya/123/3.html",
+		"/home/itschool7/Документы/Vanya/123/2.html",
+		"/home/itschool7/Документы/Vanya/123/1.html",
+		"/home/itschool7/Документы/alaska/alaska.html",
+		"/home/itschool7/Документы/alaska/Лейзер.html",
+		"/home/itschool7/Документы/DIMA/dimaurok.html",
+		"/home/itschool7/Документы/123.txt",
+		"/home/itschool7/Документы/Богдана/random/index.html",
+		"/home/itschool7/Документы/Богдана/random/main.js",
+		"/home/itschool7/Документы/ксения/main.js",
+		"/home/itschool7/Документы/ксения/index.html",
+		"/home/itschool7/Документы/Sveta/index.html",
+		"/home/itschool7/Документы/Sveta/main.js",
+		"/home/itschool7/Документы/Sveta/index.htlm",
+		"/home/itschool7/egorkoz/easw.html",
+		"/home/itschool7/Документы/Лейзер/Третий Урок",
+		"/home/itschool7/Документы/Лейзер/Третий урок/Лейзер.html",
+		"/home/itschool7/Документы/Лейзер/Третий урок/Лейзер",
+		"/home/itschool7/Документы/sutiha/sutiha",
+		"/home/itschool7/Документы/sutiha/index.html",
+		"/home/itschool7/Документы/sutiha/main.js",
+		"/home/itschool7/Рабочий стол/sutiha",
+		"/home/itschool7/Рабочий стол/Создать файл",
+		"/home/itschool7/Документы/sutiha/suiha",
+		"/home/itschool7/Документы/Богдана/index.html",
+		"/home/itschool7/Документы/Богдана/main.js",
+		"/home/itschool7/Документы/США/shifr/main.js",
+		"/home/itschool7/Документы/США/shifr/index.html",
+		"/home/itschool7/Документы/Лейзер/Второй Урок/Лейзер_3680.html",
+		"/home/itschool7/Борецкий/пвчрчрю.html",
+		"/home/itschool7/Борецкий/efgdfsgdf2.html",
+		"/home/itschool7/Документы/Roma/main.css",
+		"/home/itschool7/Документы/main.js",
+		"/home/itschool7/Документы/Roma/index.html",
+		"/home/itschool7/Документы/Rodion/first.html",
+		"/home/itschool7/Документы/Rodion/first.css",
+		"/home/itschool7/Документы/srsr/dsa.html",
+		"/home/itschool7/Документы/Andrii0/main.js",
+		"/home/itschool7/Документы/Andrii0/index.html",
+		"/home/itschool7/228ghopnik/index.html",
+		"/home/itschool7/228ghopnik/main.css",
+		"/home/itschool7/Документы/Wladuslav/index.html",
+		"/home/itschool7/Документы/Wladuslav/main.css",
+		"/home/itschool7/Документы/supercell/snow.gif",
+		"/home/itschool7/Документы/supercell/main.css",
+		"/home/itschool7/Документы/supercell/index.html",
+		"/home/itschool7/Документы/wladuslav/index.html"
+	],
+	"find":
+	{
+		"height": 91.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 91.0
+	},
+	"input":
+	{
+		"height": 0.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "1.sublime-project",
+	"replace":
+	{
+		"height": 178.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 150.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

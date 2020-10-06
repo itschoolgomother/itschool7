@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+	<textarea id="text"></textarea>
+	<button onclick="stas()">Ugadaite</button>
+    <script type="text/javascript">
+    var number = Math.random()*100;
+    var erik = 0;
+    function stas() {
+	var value = document.getElementById('text').value;
+    number =  Math.round(number);
+    erik++;
+	if (number==value) {
+		alert('Vi Ugadali!')
+	} else if(number>value) {
+    alert("Vi ne Ugadali! Bolshe!")
+	} else if(number<value) {
+    alert("Vi ne Ugadali! Menshe!")}
+    if (erik>10) { 
+     alert('You lose!')
+    } else if(number==value && erik<10){alert('You Win!!!!!')
+    }
+}
+</script>
+</body>
+</html>

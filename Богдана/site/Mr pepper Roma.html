@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Mr.Pepper Roma</title>
+</head>
+<body>
+<button onclick="f()">>свой цвет</button>
+<button onclick="a()">>рандом</button>
+<button onclick="rm()">>кр- </button>
+<button onclick="rp()">>кр+ </button>
+<button onclick="bm()">>сын-</button>
+<button onclick="bp()">>сын+</button>
+<button onclick="gp()">>зел-</button>
+<button onclick="gm()">>зел+</button>
+<div id="killer"></div>
+<style type="text/css">
+#killer{
+	width:500px;
+	height:500px;
+	background-color:orange;
+
+}
+</style>
+<script type="text/javascript">
+	var b =0
+	var r =0
+	var g =0
+	function f(){var color= prompt("введите цвет")
+	document.getElementById("killer").style.backgroundColor=color
+} 
+function a(){
+	var r = Math.random()*255
+	var b = Math.random()*255
+	var g = Math.random()*255
+	document.getElementById("killer").style.backgroundColor="rgb("+r+","+g+","+b+")"
+}
+function rm (){ 
+	r = r - 50
+	document.getElementById("killer").style.backgroundColor="rgb("+r+","+g+","+b+")"
+
+}
+function rp (){
+	r = r+50
+	document.getElementById("killer").style.backgroundColor="rgb("+r+","+g+","+b+")"
+
+}
+function bm (){
+	b = b-50
+	document.getElementById("killer").style.backgroundColor="rgb("+r+","+g+","+b+")"
+}
+function bp (){
+	b= b+50
+	document.getElementById("killer").style.backgroundColor="rgb("+r+","+g+","+b+")"
+
+}
+function gp (){
+	g = g+50
+	document.getElementById("killer").style.backgroundColor="rgb("+r+","+g+","+b+")"
+
+}
+function gm (){
+	g = g-50
+	document.getElementById("killer").style.backgroundColor="rgb("+r+","+g+","+b+")"
+
+}
+
+
+</script>
+</body>
+</html>
