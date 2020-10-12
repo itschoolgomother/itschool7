@@ -15,11 +15,30 @@ div{
 	background-color: rgba(100, 255,140, 1);
 	border:3px dotted black;
     border-radius:30%;
-background-image: radial-gradient(at left, red, blue, pink);
+	background-image: radial-gradient(at left, red, blue, pink);
 }
 body{
-background-image: linear-gradient(to left bottom, red, blue, pink);
-background-repeat: no-repeat;height: 1000px
+	background-image: linear-gradient(to left bottom, red, blue, pink);
+	background-repeat: no-repeat;height: 1000px
+}
+table{
+	border: 2px solid lightgrey;	
+	border-collapse: collapse;
+}
+td{
+	border: 2px solid lightgrey;
+	text-align: center;
+}
+th{
+	border: 2px solid lightgrey;
+	background-color:  darkgrey;
+	color: white;
+}
+.pink{
+	background-color: pink;
 
+}
+.green{
+	background-color: green;
 
 }
