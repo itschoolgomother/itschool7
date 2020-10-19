@@ -1,0 +1,21 @@
+body{
+	background-color: black;
+}
+.shadow{
+	width: 300px;
+	height: 300px;
+	border: 3px solid lime;
+	position: absolute;
+	left: 150px;
+	top:  150px;
+	box-shadow: 50px -50px 8px 10px red,
+	-60px 60px 8px 10px #ffff00,
+	60px 60px 8px 25px lime;
+}
+span{
+	color: white;
+	font-size: 100px;
+	text-shadow: 10px 10px 0px red,
+	             20px 10px 0px pink,
+	             20px 10px 0px gray;
+}
