@@ -1,0 +1,22 @@
+h1{
+	position: absolute;
+	left: 45%;
+	top: 200px;
+	animation-name: ice;
+	animation-duration: 5s;
+	animation-iteration-count: infinite;
+	text-shadow: -15px 0px 0px lime;
+	color: white;
+}
+@keyframes ice{
+	1%{color: blue;}
+	2%{color: green;}
+	20%{color: white;}
+	40%{font-size: 100px; color: darkgreen;}
+	60%{transform: rotate(360deg);}
+    80%{text-shadow: 10px 0px 0px purple;}
+    100%{text-decoration: line-through;}
+}
+body{
+	background-color: black;
+}
