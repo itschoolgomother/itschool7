@@ -1,0 +1,15 @@
+li{
+	list-style-type: none;
+	border: 2px solid green;
+	width:370px;
+	display: block;
+	margin: 0px 0px 0px 0px;
+	padding: 0px 20px 0px 0px;
+	font-size: 75px;
+	color: purple;
+	text-decoration: underline;
+	background-color: lightblue;
+}
+li:hover{
+	background-color: red;
+}

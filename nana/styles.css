@@ -10,11 +10,34 @@ h1{
 } 
 img{
 	animation-name: go;
-	animation-duration: 5s;
+	animation-duration: 5s;.
 	animation-iteration-count: infinite;
 	left: 0px;
 	top:10px;
 }
 @keyframes go{
 	20%{top:0px;left: 0px;transform: rotate(-360deg);}
+}
+body{
+	background-color:red;
+}
+.button{
+	height: 150px;
+	width: 150px;
+	background-color: black;
+	border-radius: 50%;
+	padding: 100px 0px 0px 30px;
+	position: absolute;
+	top: 0px;
+	right: 0px;
+}
+a{
+	font-size: 35px;
+	color: white;
+	text-decoration: none;
+}
+.button:hover{
+	background-color: green;
+	
+
 }
