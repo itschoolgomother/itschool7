@@ -1,0 +1,27 @@
+.main-menu{
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
+}
+.main-menu li a{
+	font-size: 30px;
+	text-decoration: none;
+	border: 1px solid black;
+	display: block;
+	width: 200px;
+	color: lightblue;
+	background-color: blue;
+	margin-bottom: -1px;
+	padding: 0px 0px 0px 0px;
+}
+.main-menu li a:hover{
+	background-color: orange;
+	color: purple;
+	text-decoration:underline;
+	background-color: black;
+	padding-left: 0px;
+}
+.main-menu li a:active{
+	color: lightblue;
+	background-color: purple; 
+}
