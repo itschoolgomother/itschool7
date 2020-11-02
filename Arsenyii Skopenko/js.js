@@ -34,11 +34,23 @@ console.log(canBuy);
 let isWaterhot = true;
 let makeTea = true;
 let canMakeTea = isWaterhot && makeTea;
-*/
+
 let str = "Hello World"
 for (let i = 0 ; i <= str.length ; i++){
 	console.log(str[i])
 }
 function ghj(n) {
-	// body...
+	
+}
+*/
+function shark(yourDistabce, sharkDistabce, yourSpeed, sharkSpeed, dolphin) {
+	let doubleSpeed = yourSpeed*2;
+	if(dolphin){
+		yourSpeed = doubleSpeed;
+	}
+	if(yourDistabce/yourSpeed < sharkDistabce/sharkSpeed){
+		return "Alive!"
+	}else{
+		return "Dead!!! 	Ha! "
+	}
 }
