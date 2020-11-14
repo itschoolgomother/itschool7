@@ -1,0 +1,34 @@
+div{
+height: 100px;
+width: 100px;
+border: 1px solid black;
+animation-name: animation;
+animation-duration: 10s;
+animation-iteration-count: infinite;
+animation-delay: 1.5s;
+position: absolute;
+left: 50px;
+top: 50px;
+
+}
+
+@keyframes animation{
+	10%{width: 150px;height: 150px;left::0px;top: 0px;}
+	20%{top:150px;left:0px;}
+	30%{left:150px;top:150px;}
+	40%{top:0px;left:150px;}
+	50%{left:300px;top:0px;}
+	60%{top:150px;left:300px;}
+	70%{left:450px;top:150px;}
+	80%{border:10px dotted red;top:0px;left:450px;}
+	90%{left:600px;top:0px;}
+	100%{top:150px;left:600px;}
+
+}
+h1{
+	animation-name: gogo;
+	animation-duration: 2s;
+}
+@keyframes gogo{
+	100%{color: red;}
+}
