@@ -64,19 +64,7 @@
 	border: 10px solid pink;
 	position: absolute;
     background-color: pink;
-     top:60px;
+     top:px;
 	left:250px;
 }
-.kruzhochekVnos{
-	border-radius:50%;
-	width:5px;
-	height:15px;
-	border: 1px solid black;
-	position: absolute;
-    background-color: black;
-     top:65px;
-	left:255px;
-}
-.kruzhochekVnos+.kruzhochekVnos{
-	left:265px;
-}
+.mouth
