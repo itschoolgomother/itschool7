@@ -1,0 +1,48 @@
+#player{
+	width: 182px;
+	height: 182px;
+	border: 1px solid black;
+	position: absolute;
+
+}
+.head{
+    width:180px;
+    height:180px;
+    background-color: pink;
+    border-radius: 50%;
+    border: 2px solid black;
+    position: absolute;
+
+
+}
+.eye{
+	position: absolute;
+	width: 7px;
+	height: 7px;
+	border: 2px solid black;
+	border-radius: 50%;
+	border: 18px solid white;
+	background-color:black;
+	top: 30px;
+	left: 25px;
+    
+
+}
+.eye + .eye{
+left: 115px
+}
+.ear{
+	border:30px solid transparent;
+
+	position:absolute;
+    border-bottom: 45px solid black;
+top: -40px;
+left: -8px;
+transform: rotate(-37deg);
+
+}
+
+.ear + .ear{
+	left: 140px;
+	transform: rotate(38deg);
+}
