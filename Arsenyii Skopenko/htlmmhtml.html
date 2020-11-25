@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+	
+	<meta charset="utf-8">
+	<title></title>
+</head>
+<body>
+<canvas width="600" height="400" id="myCanvas"></canvas>
+<script type="text/javascript">
+	let cnv = document.getElementById('myCanvas');
+let ctx = cnv.getContext('2d');
+let x = cnv.width/2;
+let y = cnv.height/2;
+
+ctx.beginPath();
+ctx.rect(0, 0, 1000, 500);
+ctx.fillStyle = "teal";
+ctx.fill();
+ctx.closePath();
+
+ctx.beginPath();
+ctx.arc(x,y,100,0,Math.PI*2,false);
+ctx.fillStyle = "red";
+ctx.fill();
+ctx.strokeStyle = "black";
+ctx.stroke();
+ctx.strokeWidth = "10px"
+ctx.closePath();
+function draw() {
+	ctx.beginPath();
+ctx.arc(x,y,100,0,Math.PI*2,false);
+ctx.fillStyle = "red";
+ctx.fill();
+ctx.strokeStyle = "black";
+ctx.stroke();
+ctx.strokeWidth = "10px"
+ctx.closePath();
+x+=1;
+y+=1;
+}
+setInterval(draw,50)
+</script>
+<style type="text/css">
+	canvas{
+		border:5px solid black;
+	}
+</style>
+</body>
+</html>

@@ -1,70 +1,113 @@
+body{
+	background-image: url(index.jpeg);
+}
 .cat_pig{
-	width:500px;
-	height:500px;
-    border:10px solid grey;
-    position: absolute;
+	
 }
-.head{
-	border-radius:50%;
-	width:100px;
-	height:100px;
-	border: 15px solid black;
-	position: absolute;
-	left:200px;
-}
+
 .body{
 	border-radius:50%;
 	width:250px;
 	height:250px;
-	border: 15px solid black;
+	border: 15px solid pink;
 	position: absolute;
 	top:130px;
 	left: 125px;
+	background-color:  pink;
 }
-.legs{
+.eye{
 	border-radius:50%;
-	width:50px;
-	height:50px;
-	border: 15px solid black;
+	width:100px;
+	height:100px;
+	border: 20px solid black;
 	position: absolute;
-	bottom:20px;
-	left:170px;
+	top:130px;
+	left: 125px;
+	background-color: white;
+	top: 150px;
 }
-.legs + .legs{
-	left: 270px;
-}
-.eyes{
-	border-radius:50%;
-	width:15px;
-	height:15px;
-	border: 1px solid black;
-	position: absolute;
-	top: 45px;
-	left:240px;
-}
-.eyes+.eyes{
-	left:270px;
-}
-.arm{
-	border-radius:50%;
-	width:50px;
-	height: 50px;
-	border: 15px solid black;
-	position: absolute;
-	top:100px;
-	left:100px;
-}
-.arm+.arm{
-     left: 350px;
-}
-.nose{
-	border-radius:50%;
-	width:5px;
-	height:5px;
-	border: 10px solid pink;
-	position: absolute;
-    background-color: pink;
-     top:px;
+.eye+.eye{
+	top:150px;
 	left:250px;
 }
-.mouth
+.mouse{
+	border-radius:50%;
+	width:1px;
+	height:1px;
+	border: 50px solid black;
+	position: absolute;
+	top:150px;
+	left: 125px;
+	background-color: black;
+	top: 290px;
+	left:210px;
+}
+.coin{
+
+}
+.METAL{
+border-radius:50%;
+	width:100px;
+	height:100px;
+	border: 15px solid gold;
+	position: absolute;
+	top:130px;
+	left: 125px;
+	background-color: gold;
+	top: 150px;
+	left: 555px;
+	animation-name:go;
+	animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+@keyframes go{
+	10%{background-color: silver}
+	20%{background-color: red}
+	30%{background-color: violet}
+	40%{background-color: pink}
+	50%{background-color: lime}
+}
+.METAL+.METAL{
+	border-radius:50%;
+	width:100px;
+	height:100px;
+	border: 15px solid gold;
+	position: absolute;
+	top:130px;
+	left: 125px;
+	background-color: gold;
+	top: 150px;
+	left: 750px;
+	animation-name:go;
+	animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+@keyframes go{
+	10%{background-color: silver}
+	20%{background-color: red}
+	30%{background-color: violet}
+	40%{background-color: pink}
+	50%{background-color: lime}
+}
+.METAL+.METAL+.METAL{
+	border-radius:50%;
+	width:100px;
+	height:100px;
+	border: 15px solid gold;
+	position: absolute;
+	top:130px;
+	left: 125px;
+	background-color: gold;
+	top: 150px;
+	left: 950px;
+	animation-name:go;
+	animation-duration: 5s;
+	animation-iteration-count: infinite;
+}
+@keyframes go{
+	10%{background-color: silver}
+	20%{background-color: red}
+	30%{background-color: violet}
+	40%{background-color: pink}
+	50%{background-color: lime}
+}
