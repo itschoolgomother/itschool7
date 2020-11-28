@@ -1,9 +1,7 @@
 #player{
 	width: 182px;
 	height: 182px;
-	border: 1px solid black;
 	position: absolute;
-
 }
 .head{
     width:180px;
@@ -12,8 +10,6 @@
     border-radius: 50%;
     border: 2px solid black;
     position: absolute;
-
-
 }
 .eye{
 	position: absolute;
@@ -25,8 +21,6 @@
 	background-color:black;
 	top: 30px;
 	left: 25px;
-    
-
 }
 .eye + .eye{
 left: 115px
@@ -37,12 +31,35 @@ left: 115px
 	position:absolute;
     border-bottom: 45px solid black;
 top: -40px;
-left: -8px;
+left: -16px;
 transform: rotate(-37deg);
-
 }
-
 .ear + .ear{
 	left: 140px;
 	transform: rotate(38deg);
 }
+.mouth{
+	width: 20px;
+	height: 20px;
+	border-bottom: 2px solid black;
+	position: absolute;
+	top: 110px;
+	left: 70px; 
+}
+.nose{
+	border:10px solid transparent;
+	border-bottom: 40px solid black;
+	position: absolute;
+	top: 50px;
+	left: 80px;
+}
+#c123{
+	width: 100px;
+	position: absolute;
+	left: 200px;
+	top: 100px;
+}
+body{
+	background-color: purple;
+}
+

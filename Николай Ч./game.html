@@ -10,7 +10,26 @@
     	<div class="eye"></div>
     	<div class="ear"></div>
     	<div class="ear"></div>
-
+<div class="mouth"></div>
+<div class="nose"></div>
     </div>
+    <img src="coin.png" id="c123">
+    <script type="text/javascript">
+    	let player = document.getElementById('player');
+    	let x = 10;
+    	document.addEventListener("keydown",move);
+
+    	function move(e){
+    		if(e.keyCode == 68){
+    			x = x + 50;
+    			player.style.left = x + "px";
+    		}
+    		if (e.keyCode == 65) {
+    			x = x - 50;
+    			player.style.left = x + "px";
+    		}
+    	}
+    </script>
 </body>
+
 </html>
