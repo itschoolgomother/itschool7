@@ -1,7 +1,10 @@
+body{
+background-color: gold;
+}
 .superman{
 	width: 300px;
 	height: 300px;
-	border: 1px solid black;
+	border: 2px solid black;
 	position: absolute;
 }
 .head{
@@ -9,7 +12,7 @@
 	height: 50px;
 	border: 2px solid black;
 	background-color: red;
-	border-radius: 50%;
+	border-radius: 0%;
 	position: absolute;
 	left: 100px;
 }
@@ -20,5 +23,89 @@
 	background-color: red;
 	position: absolute;
 	left: 85px;
+	bottom: 148px;
+}
+.arm{
+	width: 30px;
+	height: 100px;
+	background-color: red;
+	border: 1px solid black;
+	position: absolute;
+	left: 170px;
 	bottom: 150px;
+}
+.left{
+	left: 52px;
+}
+.leg{
+	width: 30px;
+	height: 100px;
+	background-color: red;
+	border: 1px solid black;
+	position: absolute;
+	left: 85px;
+	bottom: 45px;
+}
+.right{
+	left: 135px;
+}
+.glazik{
+	width: 10px;
+	height: 10px;
+	position: absolute;
+	background-color: black;
+	border: 1px solid black;
+	border-radius: 15px;
+	left: 105px;
+	bottom: 275px;
+	animation: road 2s infinite linear;
+}
+.glazik1{
+	width: 10px;
+	height: 10px;
+	position: absolute;
+	background-color: black;
+	border: 1px solid black;
+	border-radius: 15px;
+	left: 130px;
+	bottom: 275px;
+	animation: road 2s infinite linear;
+}
+.mouth{
+	width: 30px;
+	height: 10px;
+	position: absolute;
+	background-color: pink;
+	border: 1px solid black;
+	border-radius: 15px;
+	left: 105px;
+	bottom: 255px;
+}
+
+.carrot{
+	width: 30px;
+	height: 100px;
+	position: absolute;
+	background-color: orange;
+	border: 1px solid black;
+	border-radius: 15px;
+	left: 230px;
+	bottom: 400px;
+}
+.carrot1{
+	width: 30px;
+	height: 25px;
+	position: absolute;
+	background-color: lime;
+	border: 1px solid black;
+	border-radius: 20px;
+	left: 230px;
+	bottom: 500px;
+}
+@keyframes road{
+	from{background-color: black;}
+	to{background-color: white;}
+}
+@keyframes sea{
+	from{}
 }
