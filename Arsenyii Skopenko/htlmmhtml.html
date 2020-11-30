@@ -12,34 +12,34 @@
 let ctx = cnv.getContext('2d');
 let x = cnv.width/2;
 let y = cnv.height/2;
+let r = 10;
+let rGrow = 1;
+let h = 200;
+let w = 300;
 
-ctx.beginPath();
-ctx.rect(0, 0, 1000, 500);
-ctx.fillStyle = "teal";
-ctx.fill();
-ctx.closePath();
-
-ctx.beginPath();
-ctx.arc(x,y,100,0,Math.PI*2,false);
-ctx.fillStyle = "red";
-ctx.fill();
-ctx.strokeStyle = "black";
-ctx.stroke();
-ctx.strokeWidth = "10px"
-ctx.closePath();
 function draw() {
 	ctx.beginPath();
-ctx.arc(x,y,100,0,Math.PI*2,false);
+ctx.clearRect(0,0,cnv.width,cnv.height)
+ctx.arc(x,y,r,0,Math.PI*2,false);
 ctx.fillStyle = "red";
 ctx.fill();
 ctx.strokeStyle = "black";
 ctx.stroke();
-ctx.strokeWidth = "10px"
 ctx.closePath();
-x+=1;
-y+=1;
+r+=rGrow;
+if (r >= 400){
+	rGrow =-rGrow;
 }
-setInterval(draw,50)
+else if (r <= 0){
+	rGrow = -rGrow
+}
+}
+setInterval(draw,10)
+function DBR() {
+	ctx.beginPath();
+ctx.rect(x,y,h,w);
+ctx.fillStyle = ""
+}
 </script>
 <style type="text/css">
 	canvas{

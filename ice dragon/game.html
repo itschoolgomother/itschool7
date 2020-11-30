@@ -3,18 +3,47 @@
 <head>
 	<title></title>
 	<link rel="stylesheet" type="text/css" href="game.css">
+	
 </head>
 <body>
-<div class="cat_pig">
+<div class="cat_pig" id="hero">
 <div class="body"></div>
 <div class="eye"></div>
 <div class="eye"></div>
 <div class="mouse"></div>
 </div>
-<div class="coin">
+<div class="coin" id="run">
 <div class="METAL"></div>
 <div class="METAL"></div>
 <div class="METAL"></div>
 </div>
+<script type="text/javascript">
+	let hero=document.getElementById("hero");
+	let coin ty-ty-ty;
+let x=10;
+let y=10;
+document.addEventListener("keydown", move);
+function move(e) {
+if (e.keyCode == 37) {
+	hero.style.left =x+"px";
+	x= x-40;
+}
+if (e.keyCode == 39) {
+	hero.style.left =x+"px";
+	x= x+50;
+}
+if (e.keyCode == 40) {
+	hero.style.top =y+"px";
+	y= y+50;
+}
+if (e.keyCode == 38) {
+	hero.style.top =y+"px";
+	y= y-50;
+}
+if (hero.style.top+hero.style.height >=coin.style.top) {
+	coin.style.display="none"
+}
+}
+</script>
 </body>
 </html>
