@@ -1,11 +1,13 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>AMONG US</title>
+	<title>Lyashko</title>
+	<meta charset="utf-8">
 	<link rel="stylesheet" type="text/css" href="among_us.css">
 </head>
 <body>
-	<div class="superman">
+
+	<div class="superman" id="spiderman">
 		<div class="head"></div>
 		<div class="body"></div>
 		<div class="arm"></div>
@@ -19,6 +21,20 @@
 
 	<div class="carrot"></div>
 	<div class="carrot1"></div>
-	
+<script type="text/javascript">
+	let a = 4;
+	let b = 3;
+	let x = 30
+	if (a > b) {
+		console.log(a + b)
+	}
+	document.addEventListener("keydown",Andrei)
+	let hero = document.getElementById("spiderman");
+	function Andrei(e){	
+	if(e.keyCode == 83){
+	hero.style.top = x + "px"
+	}
+	}
+</script> 
 </body>
 </html>
