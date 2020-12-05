@@ -2,6 +2,7 @@
 	width: 182px;
 	height: 182px;
 	position: absolute;
+
 }
 .head{
     width:180px;
@@ -56,10 +57,18 @@ transform: rotate(-37deg);
 #c123{
 	width: 100px;
 	position: absolute;
-	left: 200px;
+	left: 300px;
 	top: 100px;
 }
 body{
 	background-color: purple;
+	animation-name: anim;
+	animation-duration: 7s;
+	animation-iteration-count: infinite;
 }
+@keyframes anim{
+	25%{background-color: yellow;}
+	50%{background-color: green;}
+}
+
 

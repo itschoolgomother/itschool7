@@ -14,11 +14,19 @@
 <div class="nose"></div>
     </div>
     <img src="coin.png" id="c123">
+    <audio controls="">
+        <source src="nameOfAudio.mp3" type="audio/mp3">
+    </audio>
     <script type="text/javascript">
     	let player = document.getElementById('player');
     	let x = 10;
     	document.addEventListener("keydown",move);
-
+        function intersection() {
+            if (player.style.left + player.style.width >= c123.style.left && c123.style.left + c123.style.width >= player.style.left && player.style.top + player.style.height >= coin.style.top && player.style.top + player.style.height >= c123.style.top) {
+                c123.style.display = "none";
+            }
+}
+setInterval(intersection,1000)
     	function move(e){
     		if(e.keyCode == 68){
     			x = x + 50;
@@ -28,6 +36,15 @@
     			x = x - 50;
     			player.style.left = x + "px";
     		}
+            if (e.keyCode == 87) {
+                x = x - 50;
+                player.style.top = x + "px";
+            }
+            if (e.keyCode == 83) {
+                x = x + 50;
+                player.style.top = x + "px"
+            }
+
     	}
     </script>
 </body>
