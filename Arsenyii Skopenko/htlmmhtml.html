@@ -13,33 +13,50 @@ let ctx = cnv.getContext('2d');
 let x = cnv.width/2;
 let y = cnv.height/2;
 let r = 10;
-let rGrow = 1;
+let rGrow = 10;
 let h = 200;
 let w = 300;
-
+let x1 = 100;
+let y1 = 100;
+let dx = 10;
 function draw() {
-	ctx.beginPath();
-ctx.clearRect(0,0,cnv.width,cnv.height)
-ctx.arc(x,y,r,0,Math.PI*2,false);
-ctx.fillStyle = "red";
-ctx.fill();
-ctx.strokeStyle = "black";
-ctx.stroke();
-ctx.closePath();
-r+=rGrow;
-if (r >= 400){
-	rGrow =-rGrow;
+// 	ctx.beginPath();
+// ctx.clearRect(0,0,cnv.width,cnv.height)
+// ctx.arc(x,y,r,0,Math.PI*2,false0;
+// ctx.fillStyle = "red";
+// ctx.fill();
+// ctx.strokeStyle = "black";
+// ctx.stroke();
+// ctx.closePath();
+// r+=rGrow;
+// if (r >= 360){
+// 	rGrow =-rGrow;
+// }
+// else if (r <= 0){
+// 	rGrow = -rGrow
+// }
 }
-else if (r <= 0){
-	rGrow = -rGrow
-}
-}
-setInterval(draw,10)
+// setInterval(draw,10)
 function DBR() {
-	ctx.beginPath();
-ctx.rect(x,y,h,w);
-ctx.fillStyle = ""
+// 	ctx.beginPath();
+// ctx.rect(x,y,h,w);
+// ctx.fillStyle = "ye"
+ctx.beginPath();
+ctx.clearRect(0,0,cnv.width,cnv.height)
+ctx.arc(x1,y1,30,0,Math.PI*2,false);
+ctx.fillStyle = "yellow";
+ctx.fill();
+ctx.closePath();
+x1+=dx;
+y1+=dx;
+if (x1+30>=cnv.width||x1-30<=0){
+	dx  = -dx;
 }
+if (y1+30>=cnv.height || y1-30<=0){
+	dx = -dx;
+}
+}
+setInterval(DBR, 1)
 </script>
 <style type="text/css">
 	canvas{
