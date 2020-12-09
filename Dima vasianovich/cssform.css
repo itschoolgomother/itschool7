@@ -1,0 +1,36 @@
+input[type="text"]{
+	color: blue;
+	animation-name: go;
+	animation-duration: 5s;
+	animation-iteration-count: infinite;
+
+}
+@keyframes go{
+	10%{
+		background-color: red;
+	}
+20%{
+	background-color: orange;
+}
+30%{
+	background-color: yellow;
+}
+40%{
+	background-color: green;
+}
+50%{
+	background-color: lightblue;
+}
+60%{
+	background-color: blue;
+}
+70%{
+	background-color: purple
+}	
+}
+input[type="password"]:hover{
+background-color: red;	
+}
+input[type="checkbox"]:hover{
+cursor:no-drop;
+}
