@@ -1,0 +1,18 @@
+body{
+	background-image: linear-gradient(to left ,lightblue, lightgreen, red);
+}
+input[type="text"]{
+	color: purple;
+}
+input[type="text"]:hover{
+	cursor: progress;
+}
+input[type="text"]:active{
+	background-color: red;
+}
+.box{
+width: 30px;
+height: 30px;
+background-color: purple;
+margin: 0px auto;
+}

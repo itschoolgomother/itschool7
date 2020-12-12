@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<link rel="stylesheet" type="text/css" href="form.css">
+</head>
+<body>
+	
+		<form method="get">
+			<label for="log">Login</label><br>
+			<input id="log" type="text" name="login">
+			<label for="pas">Password</label>
+			<input id="pas" type="password" name="password">
+			<label for="gal">galochka</label>
+			<input checked type="checkbox" name="galochka">
+			<select multiple>
+				<option>получить вакцину от covid-19</option>
+			</select>
+			<input value="НАЖМИ ЧТОБЫ ПОЛУЧИТЬ ЭТУ СУММУ" type="submit" id="sub" name="">
+
+	</form>
+	<div class="box"></div>
+
+	<script type="text/javascript">
+		sub.onclick = function() {
+			alert('вам отправлено вакцину от covid-19')
+		}
+	</script>
+</body>
+</html>
