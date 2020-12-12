@@ -61,10 +61,13 @@ transform: rotate(-37deg);
 	top: 100px;
 }
 body{
+	margin: 0;
 	background-color: purple;
 	animation-name: anim;
 	animation-duration: 7s;
 	animation-iteration-count: infinite;
+	cursor: url(cursor.cur) 0 0, pointer;
+	min-height: 100vh;
 }
 @keyframes anim{
 	25%{background-color: yellow;}
