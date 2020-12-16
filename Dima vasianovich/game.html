@@ -9,20 +9,37 @@
 <img src="dollar.png" width="150">
 <script type="text/javascript">
 	let hero = document.getElementById('hero');
-	let a =50;
-	let b ='50';
+	let x = 10;
+	let intersection = function (h,s){
+		return h.left+h.width >=s.left &&
+		 s.left + s.width >=h.left &&
+		  h.top + h.height >= s.top &&
+		  s.top + s.height >= h.height 
+	}
 	document.addEventListener('keydown',move);
 	function move(e) {
-if (e.keyCode == 65) {
-	hero.style.left = "300px";
-0r
+if (e.keyCode == 87) {
+	x-=10;
+	hero.style.top = x + "px";
 }
-		
-	}
-	console.log('a+b');
-	if (a===b) { console.log('PRAVDA')}else{console.log('LOZH')
+ if (e.keyCode == 83) {
+	x+=10;
+	hero.style.top = x + "px";
+}
 
+ if (e.keyCode == 65) {
+	x-=10;
+	hero.style.left = x + "px";
 }
+
+ if (e.keyCode == 68) {
+	x+=10;
+	hero.style.left = x + "px";
+}		
+	}
+
+
+
 </script>
 </body>
 </html>

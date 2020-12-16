@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="css1.css">
+	<title></title>
+	<meta charset="utf-8">
+</head>
+<body>
+	<div id="hero"></div>
+	<div id="coin"></div>
+	<div id="coin1"></div>
+	<script type="text/javascript">
+		let hero = document.getElementById('hero');
+		let coin = document.getElementById('coin');
+		let coin1 = document.getElementById('coin1');
+		let x = 10;
+		let intersection = function (h, c) {
+			return h.top + h.height >= c.top &&
+			c.top + c.height >= h.top &&
+			h.left + h.width >= c.left &&
+			c.left + c.width >= h.left 
+		}
+		let loop = function () {
+			let box = hero.getBoundingClientRect();
+			let box1 = coin.getBoundingClientRect();
+			let box2 = coin1.getBoundingClientRect();
+			if(intersection(box, box1)){
+				coin.style.display = "none";
+			}
+			if(intersection(box, box2)){
+				coin1.style.display = "none"
+			}
+			requestAnimationFrame(loop);
+		}
+			requestAnimationFrame(loop);
+
+		document.addEventListener("keydown", move);
+		function move(e){
+			if (e.keyCode == 68) {
+				x = x + 10;
+				hero.style.left = x + "px";
+			}
+			if (e.keyCode == 65) {
+				x = x - 10;
+				hero.style.left = x + "px"
+			}
+			if (e.keyCode == 83) {
+				x = x + 10;
+				hero.style.top = x + "px"
+			}
+			if (e.keyCode == 87) {
+				x = x - 10;
+				hero.style.top = x + "px"
+			}
+		}
+	</script>
+</body>
+</html>

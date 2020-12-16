@@ -3,13 +3,15 @@
 	height: 100px;
 	border: 1px solid black;
 	left: 10px;
+	position: absolute;
 }
 body{
 	background-color: darkorange;
 	animation-name: fon;
 	animation-duration: 5s;
 	animation-iteration-count: infinite;
-
+cursor:url(cur.cur),auto; 
+min-height: 100vh;
 }
 @keyframes fon{
 	10%{
